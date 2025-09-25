@@ -50,4 +50,9 @@ We construct **SkyFind**, the first large-scale dataset for UAV-based REC.
 
 ---
 
+## 📂 Resources
+- **Dataset Access**: The SkyFind dataset is released strictly for **academic, non-commercial use**. Access requires agreement to privacy and ethical use terms.  
+  👉 Please fill in the [application form]([link-to-form](https://docs.google.com/forms/d/e/1FAIpQLSeUXhjHFiysv917EZJ25u6il6TUEzGjMPh-nFEMw3kLsRjlbQ/viewform?usp=header)) to request access. Approved applicants will receive the download link via email.
+
+---
 
