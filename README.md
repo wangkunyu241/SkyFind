@@ -51,8 +51,20 @@ We construct **SkyFind**, the first large-scale dataset for UAV-based REC.
 ---
 
 ## 📂 Resources
-- **Dataset Access**: The SkyFind dataset is released strictly for **academic, non-commercial use**. Access requires agreement to privacy and ethical use terms.  
-  👉 Please fill in the [application form](https://docs.google.com/forms/d/e/1FAIpQLSeUXhjHFiysv917EZJ25u6il6TUEzGjMPh-nFEMw3kLsRjlbQ/viewform?usp=header) to request access. Approved applicants will receive the download link via email.
+We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can download the images and annotations directly via the link below. 
+
+- **Download Link:** https://pan.baidu.com/s/1Rlm6lm6W4fDgsmKEiOSdcg
+- **Extraction Code:** `vcnw`
+
+### Download Contents
+The released dataset consists of the following 5 files:
+- `images.zip`: Contains all UAV images for the train, val, and test sets.
+- `train.json`: Annotations for the original training set.
+- `val.json`: Annotations for the validation set.
+- `test.json`: Annotations for the test set.
+- `train_aug.json`: Annotations for the GPT-4 augmented training set (includes the tripled linguistic variants).
+
+> **Note:** The SkyFind dataset is released strictly for **academic, non-commercial use**.
 
 ---
 
