@@ -59,10 +59,10 @@ We are excited to announce that the **SkyFind** dataset is now fully open-source
 ### Download Contents
 The released dataset consists of the following 5 files:
 - `images.zip`: Contains all UAV images for the train, val, and test sets.
-- `train.json`: Annotations for the original training set.
-- `val.json`: Annotations for the validation set.
-- `test.json`: Annotations for the test set.
-- `train_aug.json`: Annotations for the GPT-4 augmented training set (includes the tripled linguistic variants).
+- `Train.json`: Annotations for the original training set.
+- `Val.json`: Annotations for the validation set.
+- `Test.json`: Annotations for the test set.
+- `Train_aug.json`: Annotations for the GPT-4 augmented training set (includes the tripled linguistic variants).
 
 > **Note:** The SkyFind dataset is released strictly for **academic, non-commercial use**.
 
