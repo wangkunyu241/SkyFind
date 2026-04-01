@@ -54,7 +54,7 @@ We construct **SkyFind**, the first large-scale dataset for UAV-based REC.
 
 We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can download the images and annotations directly via the links below:
 
-- **Baidu Netdisk (百度网盘):** [Download Link](https://pan.baidu.com/s/1Rlm6lm6W4fDgsmKEiOSdcg) (Extraction Code: `vcnw`)
+- **Baidu Netdisk:** [Download Link](https://pan.baidu.com/s/1Rlm6lm6W4fDgsmKEiOSdcg) (Extraction Code: `vcnw`)
 - **Google Drive:** [Insert Google Drive Link Here]
 
 ### Download Contents
@@ -75,11 +75,9 @@ By downloading and using this dataset, you agree to the following terms:
 1. **Academic Use Only:** The dataset is strictly for non-commercial, academic research purposes. 
 2. **No Commercial Use:** You may not use the material for commercial purposes without explicit written permission from the authors.
 3. **No Derivatives:** You may not distribute modified, transformed, or built-upon versions of this dataset without prior authorization.
-4. **Citation:** If you use this dataset in your research, you **must** cite our TPAMI paper (please refer to the Citation section).
+4. **Citation:** If you use this dataset in your research, you **must** cite our TPAMI paper.
 
 **Disclaimer:** The dataset is provided "AS IS", without warranty of any kind, express or implied. The authors and their affiliated institutions assume no responsibility for any consequences, damages, or liabilities arising from the use of this dataset.
-
-> **Commercial/Derivative Requests:** If you wish to use the dataset for commercial purposes or need to distribute a modified version, please contact the authors in advance at: `[Your Email Address]`
 
 ---
 
