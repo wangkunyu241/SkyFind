@@ -51,10 +51,11 @@ We construct **SkyFind**, the first large-scale dataset for UAV-based REC.
 ---
 
 ## 📂 Resources
-We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can download the images and annotations directly via the link below. 
 
-- **Download Link:** https://pan.baidu.com/s/1Rlm6lm6W4fDgsmKEiOSdcg
-- **Extraction Code:** `vcnw`
+We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can download the images and annotations directly via the links below:
+
+- **Baidu Netdisk (百度网盘):** [Download Link](https://pan.baidu.com/s/1Rlm6lm6W4fDgsmKEiOSdcg) (Extraction Code: `vcnw`)
+- **Google Drive:** [Insert Google Drive Link Here]
 
 ### Download Contents
 The released dataset consists of the following 5 files:
@@ -64,7 +65,21 @@ The released dataset consists of the following 5 files:
 - `Test.json`: Annotations for the test set.
 - `Train_aug.json`: Annotations for the GPT-4 augmented training set (includes the tripled linguistic variants).
 
-> **Note:** The SkyFind dataset is released strictly for **academic, non-commercial use**.
+---
+
+## 📄 License & Terms of Use
+
+The **SkyFind** dataset is released under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License** ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)). 
+
+By downloading and using this dataset, you agree to the following terms:
+1. **Academic Use Only:** The dataset is strictly for non-commercial, academic research purposes. 
+2. **No Commercial Use:** You may not use the material for commercial purposes without explicit written permission from the authors.
+3. **No Derivatives:** You may not distribute modified, transformed, or built-upon versions of this dataset without prior authorization.
+4. **Citation:** If you use this dataset in your research, you **must** cite our TPAMI paper (please refer to the Citation section).
+
+**Disclaimer:** The dataset is provided "AS IS", without warranty of any kind, express or implied. The authors and their affiliated institutions assume no responsibility for any consequences, damages, or liabilities arising from the use of this dataset.
+
+> **Commercial/Derivative Requests:** If you wish to use the dataset for commercial purposes or need to distribute a modified version, please contact the authors in advance at: `[Your Email Address]`
 
 ---
 
