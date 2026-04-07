@@ -55,7 +55,7 @@ We construct **SkyFind**, the first large-scale dataset for UAV-based REC.
 We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can download the images and annotations directly via the links below:
 
 - **Baidu Netdisk:** [Download Link](https://pan.baidu.com/s/1Rlm6lm6W4fDgsmKEiOSdcg) (Extraction Code: `vcnw`)
-- **Google Drive:** [Insert Google Drive Link Here]
+- **Google Drive:** [To do]
 
 ### Download Contents
 The released dataset consists of the following 5 files:
