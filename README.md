@@ -69,7 +69,7 @@ val_data = load_dataset("kunyu241/SkyFind", split="validation")
 test_data = load_dataset("kunyu241/SkyFind", split="test")
 train_aug_data = load_dataset("kunyu241/SkyFind", split="train_aug")
 ```
-For more details, visit our [Hugging Face Dataset Page](https://huggingface.com/datasets/kunyu241/SkyFind).
+For more details, visit our [HuggingFace Dataset Page](https://huggingface.co/datasets/kunyu241/SkyFind).
 
 ### 📥 Direct Download (Raw Resources)
 If you prefer to work with the raw images and JSON annotations locally, you can download them via the links below:
