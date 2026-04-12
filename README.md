@@ -49,9 +49,9 @@ We construct **SkyFind**, the first large-scale dataset for UAV-based REC.
 
 ## 📂 Resources
 
-We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can access the data conveniently through **Hugging Face** or download the raw files manually.
+We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can access the data conveniently through **HuggingFace** or download the raw files manually.
 
-### 🤗 Hugging Face (Recommended)
+### 🤗 HuggingFace (Recommended)
 The dataset is hosted on Hugging Face as partitioned Parquet files for efficient loading. You can easily load it using the `datasets` library.
 
 First, install the required libraries:
