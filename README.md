@@ -18,14 +18,11 @@ Unmanned Aerial Vehicles (UAV) are increasingly used in surveillance, rescue, an
 ## ⚡ Unique Challenges of UAV-based REC
 Compared with general REC (RefCOCO, RefCOCO+, RefCOCOg), UAV-based REC introduces three distinct challenges:
 
-1. **Abundant Background Interference**  
-   The wide field of view in UAV imagery often leads to scenes with rich semantic content, containing numerous non-target entities that resemble the target. Such distracting entities in the background increase the difficulty of localization.
+1. **Abundant Background Interference** The wide field of view in UAV imagery often leads to scenes with rich semantic content, containing numerous non-target entities that resemble the target. Such distracting entities in the background increase the difficulty of localization.
 
-2. **Small Target Size**  
-   UAV imagery typically follows a ”large scene, small object” pattern, where the target occupies only a small fraction of the frame. Such target often has blurred boundary and weak texture, which increase the difficulty of recognition.
+2. **Small Target Size** UAV imagery typically follows a ”large scene, small object” pattern, where the target occupies only a small fraction of the frame. Such target often has blurred boundary and weak texture, which increase the difficulty of recognition.
 
-3. **Complex Referring Relations**  
-   To identify a target in cluttered UAV imagery, referring expressions often incorporate fine-grained details, making them longer, characterized by more intricate reference relations, and consequently more difficult to comprehend.
+3. **Complex Referring Relations** To identify a target in cluttered UAV imagery, referring expressions often incorporate fine-grained details, making them longer, characterized by more intricate reference relations, and consequently more difficult to comprehend.
 
 <p align="center">
   <img src="figs/fig3.jpg" alt="Unique challenges" width="800"/>
@@ -52,12 +49,35 @@ We construct **SkyFind**, the first large-scale dataset for UAV-based REC.
 
 ## 📂 Resources
 
-We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can download the images and annotations directly via the links below:
+We are excited to announce that the **SkyFind** dataset is now fully open-sourced! You can access the data conveniently through **Hugging Face** or download the raw files manually.
+
+### 🤗 Hugging Face (Recommended)
+The dataset is hosted on Hugging Face as partitioned Parquet files for efficient loading. You can easily load it using the `datasets` library.
+
+First, install the required libraries:
+```bash
+pip install datasets huggingface_hub pyarrow
+```
+
+Then, load the dataset in Python:
+```python
+from datasets import load_dataset
+
+# Load specific splits
+train_data = load_dataset("kunyu241/SkyFind", split="train")
+val_data = load_dataset("kunyu241/SkyFind", split="validation")
+test_data = load_dataset("kunyu241/SkyFind", split="test")
+train_aug_data = load_dataset("kunyu241/SkyFind", split="train_aug")
+```
+For more details, visit our [Hugging Face Dataset Page](https://huggingface.com/datasets/kunyu241/SkyFind).
+
+### 📥 Direct Download (Raw Resources)
+If you prefer to work with the raw images and JSON annotations locally, you can download them via the links below:
 
 - **Baidu Netdisk:** [Download Link](https://pan.baidu.com/s/1Rlm6lm6W4fDgsmKEiOSdcg) (Extraction Code: `vcnw`)
 - **Google Drive:** [Download Link](https://drive.google.com/drive/folders/1eNQDNZ5SOYtrolAn16k1yUQzPKBAhWsz?usp=sharing)
 
-### Download Contents
+**Download Contents**
 The released dataset consists of the following 5 files:
 - `images.zip`: Contains all UAV images for the train, val, and test sets.
 - `Train.json`: Annotations for the original training set.
@@ -80,4 +100,3 @@ By downloading and using this dataset, you agree to the following terms:
 **Disclaimer:** The dataset is provided "AS IS", without warranty of any kind, express or implied. The authors and their affiliated institutions assume no responsibility for any consequences, damages, or liabilities arising from the use of this dataset.
 
 ---
-
