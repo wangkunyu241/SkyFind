@@ -87,6 +87,14 @@ The released dataset consists of the following 5 files:
 
 ---
 
+### 🔧 Data Patch
+
+During dataset checking, we identified a small number of bad images in the released files. We provide a patch file to replace them.
+
+- **Baidu Netdisk:** [bad_image.zip](https://pan.baidu.com/s/1U6CQfhOn3d83ZC2QH512Uw) (Extraction Code: `qrv8`)
+
+Please download `bad_image.zip` and replace the corresponding images in the original `images.zip`.
+
 ## 📄 License & Terms of Use
 
 The **SkyFind** dataset is released under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License** ([CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)). 
@@ -96,6 +104,9 @@ By downloading and using this dataset, you agree to the following terms:
 2. **No Commercial Use:** You may not use the material for commercial purposes without explicit written permission from the authors.
 3. **No Derivatives:** You may not distribute modified, transformed, or built-upon versions of this dataset without prior authorization.
 4. **Citation:** If you use this dataset in your research, you **must** cite our TPAMI paper.
+
+
+   
 
 **Disclaimer:** The dataset is provided "AS IS", without warranty of any kind, express or implied. The authors and their affiliated institutions assume no responsibility for any consequences, damages, or liabilities arising from the use of this dataset.
 
