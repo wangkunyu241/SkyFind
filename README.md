@@ -91,7 +91,7 @@ The released dataset consists of the following 5 files:
 
 During dataset checking, we identified a small number of bad images in the released files. We provide a patch file to replace them.
 
-- **Baidu Netdisk:** [bad_image.zip](https://pan.baidu.com/s/1U6CQfhOn3d83ZC2QH512Uw) (Extraction Code: `qrv8`)
+- **Baidu Netdisk:** [bad_image.zip](https://pan.baidu.com/s/1UCd2J1-DSvVRIll0Z2eUtg) (Extraction Code: `m9ts`)
 
 Please download `bad_image.zip` and replace the corresponding images in the original `images.zip`.
 
